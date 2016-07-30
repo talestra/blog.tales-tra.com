@@ -20,4 +20,4 @@ gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
-#permalink: /:basename
+permalink: /:year/noticias/:title/
