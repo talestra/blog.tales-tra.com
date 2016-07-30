@@ -10,7 +10,7 @@ title: Tales Translations
 email: soywiz@gmail.com
 description: Tales Translations
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.tales-tra.com/" # the base hostname & protocol for your site
+url: "http://blog.tales-tra.com"
 twitter_username: talestra
 github_username:  talestra
 facebook_username: talestra
@@ -20,3 +20,4 @@ gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
+#permalink: /:basename
