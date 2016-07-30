@@ -21,6 +21,7 @@ categories:
 tags:
 - Tales of Vesperia
 ---
+
 Quizá los más jóvenes no conozcáis acerca de esta traducción, pero los abueletes recordarán
 que hubo un tiempo en el que estuvimos trabajando en una traducción de un antiguo juego llamado
 Tales of Vesperia. Atari Ibérica, quien se encargaría de distribuir el juego en España, prometió
@@ -43,5 +44,4 @@ Y esta es la historia. Así que esperamos que tanto jóvenes como no tan jóvene
 traducción a lo largo de todo este tiempo, disfruten de este juego y de esta traducción al que tanto tiempo
 y amor le hemos dedicado.
 
-![Y una catástrofe ancestral para todos aquellos que nos dijeron cosas feas >:)](http://tov.tales-tra.com/content/screenshots/full/38.jpg)
-
+{% include image.html url="http://tov.tales-tra.com/content/screenshots/full/38.jpg" description="Y una catástrofe ancestral para todos aquellos que nos dijeron cosas feas >:)" %}

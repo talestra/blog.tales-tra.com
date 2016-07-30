@@ -33,9 +33,8 @@ menú de selección idioma, que quedaba redundante si el juego pasaba a tener un
 Esperemos que os guste y no dudéis en comentar cualquier posible fallo.
 Podéis descargar el parche [http://banjo.tales-tra.com/](aquí).
 
-![¡Menús traducidos!](http://banjo.tales-tra.com/img/capturas/15.jpg)
+{% include image.html url="http://banjo.tales-tra.com/img/capturas/15.jpg" description="¡Menús traducidos!" %}
 
-![¿Aún más menús traducidos?](http://banjo.tales-tra.com/img/capturas/16.jpg)
+{% include image.html url="http://banjo.tales-tra.com/img/capturas/16.jpg" description="¿Aún más menús traducidos?" %}
 
-![¡Ay, que me da algo!](http://banjo.tales-tra.com/img/capturas/17.jpg)
-
+{% include image.html url="http://banjo.tales-tra.com/img/capturas/17.jpg" description="¡Ay, que me da algo!" %}
