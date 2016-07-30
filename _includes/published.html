@@ -1,5 +1,6 @@
 <div style="margin-bottom:32px;">
-    {% assign author = site.data.authors[post.author.display_name] %}
+    {% assign author_id = post.author.display_name|downcase %}
+    {% assign author = site.data.authors[author_id] %}
     Publicado por
     <a href="{{ author.url }}" target="_blank">{{ author.nick }}</a>
     el

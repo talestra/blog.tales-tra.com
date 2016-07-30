@@ -2,21 +2,16 @@
 layout: default
 ---
 
+{% assign post = page %}
+
 <div class="row actual-content post">
     <div class="col-md-8 ">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <header class="post-header">
-                <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+                <h1 class="post-title" itemprop="name headline"><a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a></h1>
                 <p class="post-meta">
-                    Publicado por
-                    {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
-                        itemprop="name">{{ page.author.display_name }}</span></span>{% endif %}
-                    el
-                    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date:
-                        "%-d
-                        de %b de %Y" }}
-                    </time>
+                    {% include published.html %}
                 </p>
             </header>
 
