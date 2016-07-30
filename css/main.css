@@ -26,3 +26,19 @@ footer.site-footer li {
 footer.site-footer li a {
     color: black;
 }
+
+.actual-content {
+    background: white;
+    padding: 12px 24px;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+    color: #333;
+}
+
+.actual-content h2 {
+    color: black;
+    font: bold 24px "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.2em;
+}
+.actual-content h2 a {
+    color: black;
+}

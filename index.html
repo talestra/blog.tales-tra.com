@@ -8,7 +8,7 @@ layout: default
         <div class="col-md-12" style="background:url('/img/bgfeatured.jpg'); ">
             <div style="position:relative;">
                 <a href="/proyectos/tales-of-vesperia">
-                    <img src="/img/featured/tov001.jpg" style="width:100%;height:auto;" />
+                    <img src="/img/featured/tov001.jpg" style="width:100%;height:auto;"/>
                 </a>
                 <div style="width:100%;padding: 20px;position:absolute;bottom:0;background: url('/img/70-blanco.png');">
                     <div class="row" style=" font: bold 11px Arial, sans-serif;">
@@ -34,39 +34,43 @@ layout: default
     </div>
     {% endif %}
 
+    <div class="actual-content">
+        <h1 class="page-heading">Posts</h1>
 
-    <h1 class="page-heading">Posts</h1>
+        <!--
+        {{ paginator.page }}
+        {{ paginator.per_page }}
+        {{ paginator.previous_page }}
+        {{ paginator.previous_page_path }}
+        {{ paginator.next_page }}
+        {{ paginator.next_page_path }}
+        -->
 
-    <!--
-    {{ paginator.page }}
-    {{ paginator.per_page }}
-    {{ paginator.previous_page }}
-    {{ paginator.previous_page_path }}
-    {{ paginator.next_page }}
-    {{ paginator.next_page_path }}
-    -->
-
-    <ul class="post-list">
-        {% for post in paginator.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+        <div class="post-list">
+            {% for post in paginator.posts %}
             <h2>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
 
+            <div>
+                Publicado por
+                {{ post.author.display_name }}
+                el
+                <span class="post-meta">{{ post.date | date: "%-d de %b de %Y" }}</span>
+            </div>
+
             {{ post.content }}
-        </li>
-        {% endfor %}
-    </ul>
+            {% endfor %}
+        </div>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-    {% if paginator.next_page_path %}
-    <a href="{{ paginator.next_page_path }}">‹ Noticias más antiguas</a>
-    {% endif %}
+        {% if paginator.next_page_path %}
+        <a href="{{ paginator.next_page_path }}">‹ Noticias más antiguas</a>
+        {% endif %}
 
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">Noticias más recientes ›</a>
-    {% endif %}
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">Noticias más recientes ›</a>
+        {% endif %}
+    </div>
 </div>
