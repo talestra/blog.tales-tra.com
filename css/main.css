@@ -29,7 +29,8 @@ footer.site-footer li a {
 
 .actual-content {
     background: white;
-    padding: 12px 24px;
+    padding: 16px 24px 16px 24px;
+    border: 1px solid #eae3d9;
     font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
     color: #333;
 }
@@ -41,4 +42,16 @@ footer.site-footer li a {
 }
 .actual-content h2 a {
     color: black;
+}
+
+h1.page-heading {
+    font: 11px Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: url("/img/splitline.gif") 50% repeat-x;
+}
+
+h1.page-heading span {
+    background: white;
+    padding-right: 8px;
 }
