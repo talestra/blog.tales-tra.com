@@ -19,5 +19,12 @@ categories: []
 tags: []
 comments: []
 header_image: /img/header/popgui-900x200.jpg
+project_web: http://popgui.tales-tra.com/
+project_tag: PopGui
+team:
+- soywiz
 ---
-<p>Utilidad para crear EBOOTS de juegos de PSX originales para jugarlos en el 3.02 OE-B y firmwares posteriores. No requiere usar la consola del ssitema. Permite seleccionar carátulas para los juegos (se pueden bajar automáticamente de internet si el juego está en la base de datos). Multilenguaje.</p>
+Utilidad para crear EBOOTS de juegos de PSX originales para jugarlos en el
+3.02 OE-B y firmwares posteriores. No requiere usar la consola del sistema.
+Permite seleccionar carátulas para los juegos (se pueden bajar automáticamente
+de internet si el juego está en la base de datos). Multilenguaje.

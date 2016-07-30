@@ -26,6 +26,22 @@ team:
 - soywiz
 - pacochan
 - mrheston
+screenshots:
+- /img/proyectos/toe/01.jpg
+- /img/proyectos/toe/02.jpg
+- /img/proyectos/toe/03.jpg
+- /img/proyectos/toe/04.jpg
+- /img/proyectos/toe/05.jpg
+- /img/proyectos/toe/06.jpg
+- /img/proyectos/toe/07.jpg
+- /img/proyectos/toe/08.jpg
+- /img/proyectos/toe/09.jpg
+- /img/proyectos/toe/10.jpg
+- /img/proyectos/toe/11.jpg
+- /img/proyectos/toe/12.jpg
+- /img/proyectos/toe/14.jpg
+- /img/proyectos/toe/15.jpg
+- /img/proyectos/toe/16.jpg
 ---
 **Tales of Eternia** salió en nuestro país a principios de 2006 de la
 mano de Ubisoft, y en su versión para PSP. El juego original, de PlayStation,
@@ -42,4 +58,4 @@ que se haría pública unos meses después.
 ### Herramientas
 Las utilidades que utilizamos en la traducción del juego están liberadas,
 y las puedes encontrar
-[en esta noticia](http://blog.tales-tra.com/2007/noticias/herramientas-para-la-traduccion-de-tales-of-eternia/).
+[en esta noticia](/2007/noticias/herramientas-para-la-traduccion-de-tales-of-eternia/).

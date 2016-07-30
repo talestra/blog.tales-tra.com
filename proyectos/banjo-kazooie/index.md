@@ -25,6 +25,13 @@ project_tag: Banjo-Kazooie
 team:
 - pacochan
 - garin
+screenshots:
+- /img/proyectos/banjo/01.jpg
+- /img/proyectos/banjo/02.jpg
+- /img/proyectos/banjo/03.jpg
+- /img/proyectos/banjo/04.jpg
+- /img/proyectos/banjo/05.jpg
+- /img/proyectos/banjo/06.jpg
 ---
 
 PacoChan, como buen fan de Rare que es, siempre tuvo interés en traducir **Banjo-Kazooie**.

@@ -22,6 +22,16 @@ comments: []
 project_tag: Tales of the Abyss
 project_url: http://toa.tales-tra.com/
 header_image: /img/header/toa-900x200.jpg
+screenshots:
+- /img/proyectos/toa/01.jpg
+- /img/proyectos/toa/02.jpg
+- /img/proyectos/toa/03.jpg
+- /img/proyectos/toa/04.jpg
+- /img/proyectos/toa/05.jpg
+- /img/proyectos/toa/06.jpg
+- /img/proyectos/toa/07.jpg
+- /img/proyectos/toa/08.jpg
+- /img/proyectos/toa/09.jpg
 team:
 - soywiz
 - pacochan

@@ -1,6 +1,7 @@
 body {
     background: #f9f3ea;
     cursor: default;
+    line-height: 1.2em;
 }
 
 span.adults {
