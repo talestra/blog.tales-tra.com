@@ -45,12 +45,7 @@ layout: default
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
 
-                <div>
-                    Publicado por
-                    {{ post.author.display_name }}
-                    el
-                    <span class="post-meta">{{ post.date | date: "%-d de %b de %Y" }}</span>
-                </div>
+                {% include published.html %}
 
                 {{ post.content }}
 

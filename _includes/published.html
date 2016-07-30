@@ -1,0 +1,7 @@
+<div style="margin-bottom:32px;">
+    {% assign author = site.data.authors[post.author.display_name] %}
+    Publicado por
+    <a href="{{ author.url }}" target="_blank">{{ author.nick }}</a>
+    el
+    <span class="post-meta">{{ post.date | date: "%-d de %b de %Y" }}</span>
+</div>
