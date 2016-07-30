@@ -22,10 +22,7 @@ comments: []
 ---
 
 Puedes contactarnos a través de:
-<ul>
-  <li><a href="mailto:soywiz@gmail.com" target="_blank">Email</a></li>
-  <li><a href="http://foro.tales-tra.com/" target="_blank">Foro</a></li>
-  <li><a href="http://facebook.com/talestra" target="_blank">Facebook</a></li>
-</ul>
 
-
+* [Email](mailto:soywiz@gmail.com)
+* [Foro](http://foro.tales-tra.com/)
+* [Facebook](http://facebook.com/talestra)

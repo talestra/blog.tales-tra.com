@@ -21,7 +21,7 @@ categories:
 tags:
 - Radiant Historia
 ---
-![Radiant Historia](http://blog.tales-tra.com/img/2013/05/logo.jpg)
+{% include image.html url="/img/2013/05/logo.jpg" %}
 
 Mientras soywiz corregía fallos de Tales of Vesperia, dos de los miembros del proyecto, Memnoch y Lia,
 decidieron embarcarse en la traducción de un RPG de Atlus para NDS, Radiant Historia, con la ayuda de
