@@ -1,0 +1,28 @@
+
+body {
+    background: #f9f3ea;
+}
+
+span.adults {
+    color: #cc0000;
+    font-size: 0.9em;
+}
+
+footer.site-footer {
+    font: 11px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+}
+
+footer.site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 16px 0;
+}
+
+footer.site-footer li {
+    padding: 0;
+    margin: 0;
+}
+
+footer.site-footer li a {
+    color: black;
+}
