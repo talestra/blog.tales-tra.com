@@ -5,15 +5,59 @@
 
     <h1 class="page-heading"><span>Proyectos</span></h1>
     <div class="row">
-        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-the-abyss/"><img src="/img/proyectos/toa-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
-        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-eternia/"><img src="/img/proyectos/toe-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
-        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-destiny/"><img src="/img/proyectos/tod-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
-        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-vesperia/"><img src="/img/proyectos/tov-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
-        <div class="col-md-12 col-xs-6"><a href="/proyectos/banjo-kazooie/"><img src="/img/proyectos/banjokazooie-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
-        <div class="col-md-12 col-xs-6"><a href="/proyectos/suzumiya-haruhi-no-yakusoku/"><img src="/img/proyectos/yakusoku-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
-        <div class="col-md-12 col-xs-6"><a href="/proyectos/popgui/"><img src="/img/proyectos/popgui-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-the-abyss/"><img
+                src="/img/proyectos/toa-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-eternia/"><img src="/img/proyectos/toe-250x76.jpg"
+                                                                                    style="width:100%;height: auto;padding:3px 0;"/></a>
+        </div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-destiny/"><img src="/img/proyectos/tod-250x76.jpg"
+                                                                                    style="width:100%;height: auto;padding:3px 0;"/></a>
+        </div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-vesperia/"><img src="/img/proyectos/tov-250x76.jpg"
+                                                                                     style="width:100%;height: auto;padding:3px 0;"/></a>
+        </div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/banjo-kazooie/"><img
+                src="/img/proyectos/banjokazooie-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/suzumiya-haruhi-no-yakusoku/"><img
+                src="/img/proyectos/yakusoku-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/popgui/"><img src="/img/proyectos/popgui-250x76.jpg"
+                                                                          style="width:100%;height: auto;padding:3px 0;"/></a>
+        </div>
     </div>
-    <div><a href="/proyectos" style="border-top:1px dotted #777;margin-top:8px;padding-top:8px;">Más proyectos ›</a></div>
+
+    <div style="border-top: 1px dotted #aaa;padding-top: 8px;margin-top:8px;">
+        <a href="/proyectos">Más proyectos ›</a>
+    </div>
+    <!--
     <h1 class="page-heading"><span>Últimos Comentarios</span></h1>
+    -->
     <h1 class="page-heading"><span>Equipo</span></h1>
+    <div class="row">
+        {% for author in site.data.authors %}
+        {% assign user = author[1] %}
+        {% if user.list %}
+        <div class="col-md-12 col-xs-6">
+            <table style="margin:6px 0;">
+                <tr>
+                    <td style="padding-right:4px;">
+                        <img src="/img/avatares/{{ user.avatar }}"/>
+                    </td>
+                    <td>
+                        {% if user.web %}
+                        <a href="{{ user.web }}" target="_blank" style="font-weight: bold;">{{ user.nick }}</a>
+                        {% else %}
+                        <span style="font-weight: bold;">{{ user.nick }}</span>
+                        {% endif %}
+                        {% if user.twitter %}/ <strong>@{{ user.twitter }}</strong>{% endif %}
+                        <br />{{ user.message }}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div style="border-top: 1px dotted #aaa;padding-top: 8px;margin-top:8px;">
+        <a href="/acerca-de/equipo">Antiguos miembros ›</a>
+    </div>
 </div>

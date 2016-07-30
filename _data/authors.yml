@@ -1,14 +1,136 @@
 soywiz:
   nick: soywiz
+  twitter: wizillo
   web: http://soywiz.com/
   avatar: soywiz.jpg
+  message: Programando compulsivamente
+  list: true
 
 pacochan:
   nick: PacoChan
+  twitter: pacochan88
   web: http://pacochan.tales-tra.com/
   avatar: pacochan.jpg
+  message: Los Tales me ponen
+  list: true
+
+mrheston:
+  nick: mrheston
+  twitter: mrheston
+  web: http://sidebe.net/
+  avatar: mrheston.jpg
+  message: Marca reg.
+  list: true
+
+parsec:
+  nick: Parsec
+  web: http://www.flickr.com/photos/mrparsec/
+  avatar: parsec.jpg
+  message: Observe everything, admire nothing
+  list: true
+
+kaene:
+  nick: Kaene
+  web: http://analizandolatraduccion.blogspot.com/
+  avatar: kaene.jpg
+  message: Indeed
+  list: true
+
+memnoch:
+  nick: Memnoch
+  avatar: memnoch.jpg
+  message: "-"
+  list: true
+
+tidus20:
+  nick: Tidus_20
+  web: http://www.flickr.com/photos/tidus_20/
+  twitter: tidus_20
+  avatar: tidus20.jpg
+  message: Para reírme de ti
+  list: true
+
+alexmagnus:
+  nick: AleX_Magnus
+  twitter: MindesEndian
+  avatar: alexmagnus.jpg
+  message: It's not *******, it's Katsura!
+  list: true
+
+nanami:
+  nick: Nanami
+  twitter: kawaiinanami
+  avatar: nanami.jpg
+  message: Kawaii desu ne~
+  list: true
+
+klint:
+  nick: Klint
+  web: http://klint-psk.romhackhispano.org/
+  avatar: klint.jpg
+  message: Holgazán compulsivo
+  list: true
+
+byron:
+  nick: Byron
+  avatar: byron.jpg
+  message: It's a real burn, being right so often
+  list: true
+
+squallido:
+  nick: Squallido
+  twitter: squallido
+  avatar: squallido.jpg
+  message: A'Tuin nos observa
+  list: true
+
+marshmallow:
+  nick: Marshmallow
+  twitter: surrealitybytes
+  avatar: marshmallow.jpg
+  message: Habla más que duerme.
+  list: true
+
+googol:
+  nick: Googol
+  avatar: googol.jpg
+  message: 10¹⁰⁰
+  list: true
+
+xandervj:
+  nick: Xander_VJ
+  twitter: Xander_VJ
+  avatar: xandervj.jpg
+  message: Trotamundos profesional
+  list: true
+
+lia:
+  nick: Lia
+  avatar: lia.jpg
+  message: Nipah~
+  list: true
+
+maz:
+  nick: Maz
+  avatar: maz.jpg
+  message: Paradójica confusión
+  list: true
+
+zarradeth:
+  nick: Zarradeth
+  avatar: zarradeth.jpg
+  web: http://zarradeth.wordpress.com/
+  message: "-"
+  list: true
+
+reaper:
+  nick: Reaper
+  avatar: reaper.jpg
+  message: "Now you’re fucked"
+  list: true
 
 garin:
   nick: Garin
   web: about:blank
   avatar: null.gif
+  list: false
