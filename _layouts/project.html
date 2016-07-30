@@ -6,7 +6,8 @@ layout: default
 
         <header class="post-header">
             {% if page.header_image %}
-            <img src="{{ page.header_image }}" title="{{ page.title }}" style="width: 100%; height: auto;margin-bottom: 32px;" />
+            <img src="{{ page.header_image }}" title="{{ page.title }}"
+                 style="width: 100%; height: auto;margin-bottom: 32px;"/>
             {% else %}
             <h1 class="post-title">{{ page.title }}</h1>
             {% endif %}
@@ -34,9 +35,9 @@ layout: default
                     {% for post2 in site.posts%}{% if post2.tags contains page.project_tag %}
                     <li>
                         <a href="{{ post2.url }}">{{ post2.title }}</a>
+                        - <span style="color:#aaa;">
                         {{ post2.date | date: "%-d de %b de %Y" }}
-                        /
-                        <span class="disqus-comment-count" data-disqus-url="{{ post.url | prepend: site.baseurl }}">0 Comentarios</span>
+                        </span>
                     </li>
                     {% endif %}{% endfor %}
                 </ul>
@@ -79,5 +80,3 @@ layout: default
         </div>
     </article>
 </div>
-
-<script id="dsq-count-scr" src="//tales-translations-blog.disqus.com/count.js" async></script>

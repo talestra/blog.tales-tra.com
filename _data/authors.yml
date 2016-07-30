@@ -131,6 +131,25 @@ reaper:
 
 garin:
   nick: Garin
-  web: about:blank
+  avatar: null.gif
+  list: false
+
+rinoninha:
+  nick: Rinoninha
+  avatar: null.gif
+  list: false
+
+yuffie:
+  nick: Yuffie
+  avatar: null.gif
+  list: false
+
+turyx:
+  nick: Turyx
+  avatar: null.gif
+  list: false
+
+deathsapphire:
+  nick: Death's sapphire
   avatar: null.gif
   list: false
