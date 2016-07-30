@@ -21,6 +21,8 @@ tags: []
 comments: []
 ---
 
+### Proyectos
+
 * [Banjo](/proyectos/banjo-kazooie)
 * [Cinco centímetros por segundo](/proyectos/byousoku-5cm)
 * [PopGui](/proyectos/popgui)
@@ -30,6 +32,9 @@ comments: []
 * [Tales of the Abyss](/proyectos/tales-of-the-abyss)
 * [Tales of Vesperia](/proyectos/tales-of-vesperia)
 * [Tales of the Abyss (Anime)](/proyectos/tales-of-the-abyss-anime)
+
+### Proyectos [+18]
+
 * [Dividead](/proyectos/dividead)
 * [Yume Miru Kusuri](/proyectos/yume-miru-kusuri)
 
