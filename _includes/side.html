@@ -1,27 +1,44 @@
 <div class="container-fluid">
     <div style="margin:8px 0 32px 0;">
-        <a href="http://feeds.feedburner.com/tales-tra" target="_blank"><img src="/img/suscribete-feed.gif" style="width:100%;height:auto;" /></a>
+        <a href="http://feeds.feedburner.com/tales-tra" target="_blank"><img src="/img/suscribete-feed.gif"
+                                                                             style="width:100%;height:auto;"/></a>
     </div>
 
     <h1 class="page-heading"><span>Proyectos</span></h1>
-    <div class="row">
+
+    <style type="text/css">
+        .rows_banners .col-md-12 img {
+            border-radius: 7px;
+            width: 100%;
+            height: auto;
+            padding: 3px 0;
+        }
+    </style>
+
+    <div class="row rows_banners">
         <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-the-abyss/"><img
-                src="/img/proyectos/toa-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
-        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-eternia/"><img src="/img/proyectos/toe-250x76.jpg"
-                                                                                    style="width:100%;height: auto;padding:3px 0;"/></a>
+                src="/img/proyectos/toa-250x76.jpg"/></a></div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-eternia/"><img
+                src="/img/proyectos/toe-250x76.jpg"/></a>
         </div>
         <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-destiny/"><img src="/img/proyectos/tod-250x76.jpg"
-                                                                                    style="width:100%;height: auto;padding:3px 0;"/></a>
+        /></a>
         </div>
         <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-vesperia/"><img src="/img/proyectos/tov-250x76.jpg"
-                                                                                     style="width:100%;height: auto;padding:3px 0;"/></a>
+        /></a>
         </div>
         <div class="col-md-12 col-xs-6"><a href="/proyectos/banjo-kazooie/"><img
-                src="/img/proyectos/banjokazooie-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
+                src="/img/proyectos/banjokazooie-250x76.jpg"/></a></div>
         <div class="col-md-12 col-xs-6"><a href="/proyectos/suzumiya-haruhi-no-yakusoku/"><img
-                src="/img/proyectos/yakusoku-250x76.jpg" style="width:100%;height: auto;padding:3px 0;"/></a></div>
+                src="/img/proyectos/yakusoku-250x76.jpg"/></a></div>
         <div class="col-md-12 col-xs-6"><a href="/proyectos/popgui/"><img src="/img/proyectos/popgui-250x76.jpg"
-                                                                          style="width:100%;height: auto;padding:3px 0;"/></a>
+        /></a>
+        </div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/dividead/"><img
+                src="/img/proyectos/dividead-250x76.jpg"/></a>
+        </div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/yume-miru-kusuri/"><img
+                src="/img/proyectos/yume-250x76.jpg"/></a>
         </div>
     </div>
 
@@ -49,7 +66,7 @@
                         <span style="font-weight: bold;">{{ user.nick }}</span>
                         {% endif %}
                         {% if user.twitter %}/ <strong>@{{ user.twitter }}</strong>{% endif %}
-                        <br />{{ user.message }}
+                        <br/>{{ user.message }}
                     </td>
                 </tr>
             </table>

@@ -30,4 +30,6 @@ comments: []
 * [Tales of the Abyss](/proyectos/tales-of-the-abyss)
 * [Tales of Vesperia](/proyectos/tales-of-vesperia)
 * [Tales of the Abyss (Anime)](/proyectos/tales-of-the-abyss-anime)
+* [Dividead](/proyectos/dividead)
+* [Yume Miru Kusuri](/proyectos/yume-miru-kusuri)
 
