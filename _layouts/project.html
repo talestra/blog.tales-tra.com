@@ -2,19 +2,82 @@
 layout: default
 ---
 <div class="actual-content">
-  <article class="post">
+    <article class="post">
 
-    <header class="post-header">
-      {% if page.header_image %}
-      <img src="{{ page.header_image }}" title="{{ page.title }}" />
-      {% else %}
-      <h1 class="post-title">{{ page.title }}</h1>
-      {% endif %}
-    </header>
+        <header class="post-header">
+            {% if page.header_image %}
+            <img src="{{ page.header_image }}" title="{{ page.title }}" style="width: 100%; height: auto;margin-bottom: 32px;" />
+            {% else %}
+            <h1 class="post-title">{{ page.title }}</h1>
+            {% endif %}
+        </header>
 
-    <div class="post-content">
-      {{ content }}
-    </div>
+        <div class="row">
+            <div class="col-md-4" style="color:#777;">
+                <a href="{{ page.project_url }}">Visita la web del proyecto ›</a>
+            </div>
+            <div class="col-md-8">
+                <div class="post-content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
 
-  </article>
+        <h1 class="page-heading"><span>Noticias</span></h1>
+
+        <div class="row">
+            <div class="col-md-4" style="color:#777;">
+                Estas son todas las noticias que hemos publicado relacionadas con este proyecto.
+            </div>
+            <div class="col-md-8">
+                <ul style="padding-left:1.5em;">
+                    {% for post2 in site.posts%}{% if post2.tags contains page.project_tag %}
+                    <li>
+                        <a href="{{ post2.url }}">{{ post2.title }}</a>
+                        {{ post2.date | date: "%-d de %b de %Y" }}
+                        /
+                        <span class="disqus-comment-count" data-disqus-url="{{ post.url | prepend: site.baseurl }}">0 Comentarios</span>
+                    </li>
+                    {% endif %}{% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <h1 class="page-heading"><span>Galería de imágenes</span></h1>
+
+        <div class="row">
+            <div class="col-md-4" style="color:#777;">
+                Publicadas:
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="page-heading"><span>Equipo</span></h1>
+
+        <div class="row">
+            <div class="col-md-4" style="color:#777;">
+                En este proyecto participan o han participado estas personas.
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    {% assign authors = %}
+                    {% for person in page.team %}
+                    {% assign author = site.data.authors[person] %}
+                    <div class="col-md-2 col-xs-4" style="text-align: center;">
+                        <img src="/img/avatares/{{ author.avatar }}" alt="{{ author.nick }}"/>
+                        <p>{{ author.nick }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </article>
 </div>
+
+<script id="dsq-count-scr" src="//tales-translations-blog.disqus.com/count.js" async></script>

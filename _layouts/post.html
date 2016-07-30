@@ -1,53 +1,61 @@
 ---
 layout: default
 ---
-<div class="actual-content">
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <header class="post-header">
-            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-            <p class="post-meta">
-                Publicado por
-                {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
-                    itemprop="name">{{ page.author.display_name }}</span></span>{% endif %}
-                el
-                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d
-                    de %b de %Y" }}
-                </time>
-            </p>
-        </header>
+<div class="row actual-content post">
+    <div class="col-md-8 ">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <div class="post-content" itemprop="articleBody" style="border-bottom: 1px dotted #aaa;padding-bottom:32px;margin-bottom:32px;">
-            {{ content }}
-        </div>
+            <header class="post-header">
+                <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+                <p class="post-meta">
+                    Publicado por
+                    {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
+                        itemprop="name">{{ page.author.display_name }}</span></span>{% endif %}
+                    el
+                    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date:
+                        "%-d
+                        de %b de %Y" }}
+                    </time>
+                </p>
+            </header>
 
-        <div id="comments"></div>
-        <div id="disqus_thread"></div>
-        <script>
-            /**
-             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-            var disqus_config = function () {
-                //{% if page.wordpress_id %}
-                ////this.page.identifier = {{ page.wordpress_id }};
-                //this.page.url = "{{ page.wordpress_url }}";
-                //{% else %}
-                //this.page.identifier =
-                this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}";
-                //{% endif %}
-            };
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = '//tales-translations-blog.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>
-            Please enable JavaScript to view the
-            <a href="https://disqus.com/?ref_noscript">
-                comments powered by Disqus.
-            </a>
-        </noscript>
-    </article>
+            <div class="post-content" itemprop="articleBody"
+                 style="border-bottom: 1px dotted #aaa;padding-bottom:32px;margin-bottom:32px;">
+                {{ content }}
+            </div>
+
+            <div id="comments"></div>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+                var disqus_config = function () {
+                    //{% if page.wordpress_id %}
+                    ////this.page.identifier = {{ page.wordpress_id }};
+                    //this.page.url = "{{ page.wordpress_url }}";
+                    //{% else %}
+                    //this.page.identifier =
+                    this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}";
+                    //{% endif %}
+                };
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = '//tales-translations-blog.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>
+                Please enable JavaScript to view the
+                <a href="https://disqus.com/?ref_noscript">
+                    comments powered by Disqus.
+                </a>
+            </noscript>
+        </article>
+    </div>
+    <div class="col-md-4">
+        {% include side.html %}
+    </div>
 </div>

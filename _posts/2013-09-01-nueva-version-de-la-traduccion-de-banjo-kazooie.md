@@ -31,7 +31,7 @@ algunas rimas y arreglar ciertas incoherencias entre diálogos. Otro detalle int
 menú de selección idioma, que quedaba redundante si el juego pasaba a tener un solo idioma.
 
 Esperemos que os guste y no dudéis en comentar cualquier posible fallo.
-Podéis descargar el parche [http://banjo.tales-tra.com/](aquí).
+Podéis descargar el parche [aquí](http://banjo.tales-tra.com/).
 
 {% include image.html url="http://banjo.tales-tra.com/img/capturas/15.jpg" description="¡Menús traducidos!" %}
 
