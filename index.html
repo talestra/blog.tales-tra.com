@@ -46,8 +46,7 @@ layout: default
 
                 {{ post.content }}
 
-                <a href="{{ post.url | prepend: site.baseurl }}#comments"><span class="disqus-comment-count"
-                                                                                data-disqus-url="{{ post.url | prepend: site.baseurl }}">0 Comentarios</span></a>
+                <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comentarios</a>
             </article>
             {% endfor %}
         </div>
