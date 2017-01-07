@@ -17,17 +17,19 @@ El repositorio con todos los parches y traducciones está aquí:
 
 [https://github.com/talestra/talestrakt](https://github.com/talestra/talestrakt).
 
-## ¿Qué significa y qué implicaciones tiene esto?
+<!--more-->
 
-### Visibilidad
+### ¿Qué significa y qué implicaciones tiene esto?
+
+***Visibilidad:***
 
 Los interesados váis a poder seguir el progreso de las traducciones visitando la página.
 
-### Betatesting público
+***Betatesting público:***
 
 Además será posible que cualquiera genere **versiones previas** durante el desarrollo.
 
-### Colaboración pública
+***Colaboración pública:***
 
 Estando en github cualquiera puede colaborar: **tanto traductores como programadores**.
 Basta con hacer un fork y luego una Pull Request. En un par de clicks puedes sugerir
@@ -35,7 +37,7 @@ una corrección o traducir un proyecto que esté parado.
 Esto significa que ya no depende 100% de mí y que cualquiera puede retomar algún
 proyecto parado o proponer mejoras.
 
-## Colaboración
+### Colaboración
 
 Podéis encontrar detalles sobre como colaborar aquí (tanto programadores como traductores):
 
