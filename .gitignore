@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 tools/out
 *.iws
+.DS_Store
+
