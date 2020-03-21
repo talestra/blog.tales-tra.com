@@ -7,12 +7,12 @@ author:
   display_name: PacoChan
   login: PacoChan
   email: pacochan@tales-tra.com
-  url: http://pacochan.tales-tra.com
+  url: https://pacochan.tales-tra.com
 author_login: PacoChan
 author_email: pacochan@tales-tra.com
-author_url: http://pacochan.tales-tra.com
+author_url: https://pacochan.tales-tra.com
 wordpress_id: 1098
-wordpress_url: http://blog.tales-tra.com/?p=1098
+wordpress_url: https://blog.tales-tra.com/?p=1098
 permalink: /2013/noticias/nueva-version-de-la-traduccion-de-banjo-kazooie/
 date: '2013-09-01 02:12:29 +0200'
 date_gmt: '2013-09-01 00:12:29 +0200'
@@ -31,10 +31,10 @@ algunas rimas y arreglar ciertas incoherencias entre diálogos. Otro detalle int
 menú de selección idioma, que quedaba redundante si el juego pasaba a tener un solo idioma.
 
 Esperemos que os guste y no dudéis en comentar cualquier posible fallo.
-Podéis descargar el parche [aquí](http://banjo.tales-tra.com/).
+Podéis descargar el parche [aquí](https://banjo.tales-tra.com/).
 
-{% include image.html url="http://banjo.tales-tra.com/img/capturas/15.jpg" description="¡Menús traducidos!" %}
+{% include image.html url="https://banjo.tales-tra.com/img/capturas/15.jpg" description="¡Menús traducidos!" %}
 
-{% include image.html url="http://banjo.tales-tra.com/img/capturas/16.jpg" description="¿Aún más menús traducidos?" %}
+{% include image.html url="https://banjo.tales-tra.com/img/capturas/16.jpg" description="¿Aún más menús traducidos?" %}
 
-{% include image.html url="http://banjo.tales-tra.com/img/capturas/17.jpg" description="¡Ay, que me da algo!" %}
+{% include image.html url="https://banjo.tales-tra.com/img/capturas/17.jpg" description="¡Ay, que me da algo!" %}

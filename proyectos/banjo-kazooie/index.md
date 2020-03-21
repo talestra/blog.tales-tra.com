@@ -7,12 +7,12 @@ author:
   display_name: mrheston
   login: admin
   email: mrheston@tales-tra.com
-  url: http://blog.org.es
+  url: https://blog.org.es
 author_login: admin
 author_email: mrheston@tales-tra.com
-author_url: http://blog.org.es
+author_url: https://blog.org.es
 wordpress_id: 427
-wordpress_url: http://blog.tales-tra.com/?page_id=427
+wordpress_url: https://blog.tales-tra.com/?page_id=427
 date: '2010-02-19 01:52:07 +0100'
 date_gmt: '2010-02-19 00:52:07 +0100'
 categories:
@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: []
 header_image: /img/header/banjo-900x200.jpg
-project_url: http://banjo.tales-tra.com/
+project_url: https://banjo.tales-tra.com/
 project_tag: Banjo-Kazooie
 team:
 - pacochan

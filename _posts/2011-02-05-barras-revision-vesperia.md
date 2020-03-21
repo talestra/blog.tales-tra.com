@@ -7,12 +7,12 @@ author:
   display_name: mrheston
   login: admin
   email: mrheston@tales-tra.com
-  url: http://blog.org.es
+  url: https://blog.org.es
 author_login: admin
 author_email: mrheston@tales-tra.com
-author_url: http://blog.org.es
+author_url: https://blog.org.es
 wordpress_id: 701
-wordpress_url: http://blog.tales-tra.com/?p=701
+wordpress_url: https://blog.tales-tra.com/?p=701
 date: '2011-02-05 16:45:33 +0100'
 date_gmt: '2011-02-05 15:45:33 +0100'
 categories:
@@ -41,4 +41,4 @@ queremos meternos en el follón de buscar gente que traduzca desde japonés.
 
 Cuando terminemos y publiquemos la traducción para el Vesperia de Xbox 360 ya veremos lo que hacemos, pero por ahora así están las cosas.
 
-*Podéis seguirnos en [Twitter](http://twitter.com/talestra) o [Facebook](http://facebook.com/talestra). Peores cosas se han visto.*
+*Podéis seguirnos en [Twitter](https://twitter.com/talestra) o [Facebook](https://facebook.com/talestra). Peores cosas se han visto.*

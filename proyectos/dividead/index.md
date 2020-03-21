@@ -8,7 +8,7 @@ team:
 - soywiz
 - memnoch
 - mandanga
-project_url: http://dividead.tales-tra.com/
+project_url: https://dividead.tales-tra.com/
 project_tag: Dividead
 ---
 
@@ -90,15 +90,15 @@ en japonés). Nuestro pack de idioma al inglés traduce el mapa.
 
 ### En inglés:
 
-* [http://www.himeyashop.com/product_info.php/products_id/834](http://www.himeyashop.com/product_info.php/products_id/834)
+* [https://www.himeyashop.com/product_info.php/products_id/834](https://www.himeyashop.com/product_info.php/products_id/834)
 
 ### En japonés:
 
-* [http://www.dmm.co.jp/digital/pcgame2/-/detail/=/cid=cs_0004/](http://www.dmm.co.jp/digital/pcgame2/-/detail/=/cid=cs_0004/)
-* [http://gyut.to/category.phtml?enc=ybob+W5zGreLfKY=](http://gyut.to/category.phtml?enc=ybob+W5zGreLfKY=)
-* [http://shop.vector.co.jp/service/servlet/Catalogue.Detail.Top?ITEM_NO=SR100952](http://shop.vector.co.jp/service/servlet/Catalogue.Detail.Top?ITEM_NO=SR100952)
-* [http://www.comshop.co.jp/g-haku/index.php?adult_check_flag=on&jan=4934029010459](http://www.comshop.co.jp/g-haku/index.php?adult_check_flag=on&jan=4934029010459) **(DVD)**
-* [http://www.digiket.com/work/show.php?ID=ITM0009450](http://www.digiket.com/work/show.php?ID=ITM0009450)
+* [https://www.dmm.co.jp/digital/pcgame2/-/detail/=/cid=cs_0004/](https://www.dmm.co.jp/digital/pcgame2/-/detail/=/cid=cs_0004/)
+* [https://gyut.to/category.phtml?enc=ybob+W5zGreLfKY=](https://gyut.to/category.phtml?enc=ybob+W5zGreLfKY=)
+* [https://shop.vector.co.jp/service/servlet/Catalogue.Detail.Top?ITEM_NO=SR100952](https://shop.vector.co.jp/service/servlet/Catalogue.Detail.Top?ITEM_NO=SR100952)
+* [https://www.comshop.co.jp/g-haku/index.php?adult_check_flag=on&jan=4934029010459](https://www.comshop.co.jp/g-haku/index.php?adult_check_flag=on&jan=4934029010459) **(DVD)**
+* [https://www.digiket.com/work/show.php?ID=ITM0009450](https://www.digiket.com/work/show.php?ID=ITM0009450)
 
 ### Descargas:
 

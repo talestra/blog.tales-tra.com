@@ -7,12 +7,12 @@ author:
   display_name: mrheston
   login: admin
   email: mrheston@tales-tra.com
-  url: http://blog.org.es
+  url: https://blog.org.es
 author_login: admin
 author_email: mrheston@tales-tra.com
-author_url: http://blog.org.es
+author_url: https://blog.org.es
 wordpress_id: 11
-wordpress_url: http://blog.tales-tra.com/proyectos/
+wordpress_url: https://blog.tales-tra.com/proyectos/
 date: '2007-03-05 15:09:19 +0100'
 date_gmt: '2007-03-05 14:09:19 +0100'
 categories:

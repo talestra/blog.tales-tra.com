@@ -7,12 +7,12 @@ author:
   display_name: PacoChan
   login: PacoChan
   email: pacochan@tales-tra.com
-  url: http://pacochan.tales-tra.com
+  url: https://pacochan.tales-tra.com
 author_login: PacoChan
 author_email: pacochan@tales-tra.com
-author_url: http://pacochan.tales-tra.com
+author_url: https://pacochan.tales-tra.com
 wordpress_id: 1076
-wordpress_url: http://blog.tales-tra.com/?p=1076
+wordpress_url: https://blog.tales-tra.com/?p=1076
 date: '2012-12-04 14:06:20 +0100'
 date_gmt: '2012-12-04 13:06:20 +0100'
 categories:
@@ -25,12 +25,12 @@ tags:
 Primero de todo, y aunque lo anunciamos un poco tarde, hemos acabado de subtitular el anime de
 Tales of Symphonia. A pesar de que costó bastante conseguir una RAW y una versión en inglés del
 capítulo, a mediados de Noviembre por fin llegamos al desenlace de esta aventura. Como siempre,
-podéis encontrar todo lo relacionado con anime en [GNAC](http://gnac.tales-tra.com/).
+podéis encontrar todo lo relacionado con anime en [GNAC](https://gnac.tales-tra.com/).
 
 {% include image.html url="/img/2012/12/ToS-540x292.jpg" description="Tales of Symphonia" %}
 
 Y en otro orden de cosas, el Vesperia sigue avanzando. Para estar al día de la situación os
-recomendamos pasaros por el [foro](http://foro.tales-tra.com/viewforum.php?f=101),
+recomendamos pasaros por el [foro](https://foro.tales-tra.com/viewforum.php?f=101),
 que ahí vamos poniendo las cosas más o menos al día. Sin embargo, éste es un resumen de la situación:
 
 * **Parcheador terminado**. Tenemos un parcheador funcional al que aún le falta pulirle algunas cosillas.

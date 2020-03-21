@@ -7,12 +7,12 @@ author:
   display_name: mrheston
   login: admin
   email: mrheston@tales-tra.com
-  url: http://blog.org.es
+  url: https://blog.org.es
 author_login: admin
 author_email: mrheston@tales-tra.com
-author_url: http://blog.org.es
+author_url: https://blog.org.es
 wordpress_id: 360
-wordpress_url: http://blog.tales-tra.com/?page_id=360
+wordpress_url: https://blog.tales-tra.com/?page_id=360
 date: '2010-01-06 10:59:07 +0100'
 date_gmt: '2010-01-06 09:59:07 +0100'
 categories:
@@ -21,7 +21,7 @@ tags: []
 comments: []
 header_image: /img/header/toe-900x200.jpg
 project_tag: Tales of Eternia
-project_url: http://toe.tales-tra.com/
+project_url: https://toe.tales-tra.com/
 team:
 - soywiz
 - pacochan

@@ -11,4 +11,4 @@ tags:
 
 He rescatado **el foro de Tales Translations**.
 
-Podéis volver acceder a él en la dirección de siempre: [http://foro.tales-tra.com/](http://foro.tales-tra.com/)
+Podéis volver acceder a él en la dirección de siempre: [https://foro.tales-tra.com/](https://foro.tales-tra.com/)

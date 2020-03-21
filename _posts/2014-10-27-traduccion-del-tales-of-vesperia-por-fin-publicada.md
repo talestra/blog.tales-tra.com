@@ -7,12 +7,12 @@ author:
   display_name: PacoChan
   login: PacoChan
   email: pacochan@tales-tra.com
-  url: http://pacochan.tales-tra.com
+  url: https://pacochan.tales-tra.com
 author_login: PacoChan
 author_email: pacochan@tales-tra.com
-author_url: http://pacochan.tales-tra.com
+author_url: https://pacochan.tales-tra.com
 wordpress_id: 1158
-wordpress_url: http://blog.tales-tra.com/?p=1158
+wordpress_url: https://blog.tales-tra.com/?p=1158
 permalink: /2014/noticias/traduccion-del-tales-of-vesperia-por-fin-publicada/
 date: '2014-10-27 20:06:46 +0100'
 date_gmt: '2014-10-27 19:06:46 +0100'
@@ -37,11 +37,11 @@ Obviamente la gente empezó a tener dudas acerca de qué pasaba. Y nos preguntab
 o nos decían cosas feas.
 
 Pero todo lo que empieza, algún día acaba, y esa traducción POR FIN ya está disponible en su versión final para
-descargar desde [http://tov.tales-tra.com](http://tov.tales-tra.com) Este es el resultado tras los cinco
+descargar desde [https://tov.tales-tra.com](https://tov.tales-tra.com) Este es el resultado tras los cinco
 años que han pasado desde que empezamos.
 
 Y esta es la historia. Así que esperamos que tanto jóvenes como no tan jóvenes que hayan estado esperando la
 traducción a lo largo de todo este tiempo, disfruten de este juego y de esta traducción al que tanto tiempo
 y amor le hemos dedicado.
 
-{% include image.html url="http://tov.tales-tra.com/content/screenshots/full/38.jpg" description="Y una catástrofe ancestral para todos aquellos que nos dijeron cosas feas >:)" %}
+{% include image.html url="https://tov.tales-tra.com/content/screenshots/full/38.jpg" description="Y una catástrofe ancestral para todos aquellos que nos dijeron cosas feas >:)" %}

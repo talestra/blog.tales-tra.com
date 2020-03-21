@@ -7,12 +7,12 @@ author:
   display_name: mrheston
   login: admin
   email: mrheston@tales-tra.com
-  url: http://blog.org.es
+  url: https://blog.org.es
 author_login: admin
 author_email: mrheston@tales-tra.com
-author_url: http://blog.org.es
+author_url: https://blog.org.es
 wordpress_id: 398
-wordpress_url: http://blog.tales-tra.com/proyectos/tales-of-destiny/
+wordpress_url: https://blog.tales-tra.com/proyectos/tales-of-destiny/
 date: '2010-01-21 00:16:48 +0100'
 date_gmt: '2010-01-20 23:16:48 +0100'
 categories:
@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: []
 project_tag: Tales of Destiny
-project_url: http://tod.tales-tra.com/
+project_url: https://tod.tales-tra.com/
 header_image: /img/header/tod-900x200.jpg
 team:
 - soywiz

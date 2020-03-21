@@ -1,7 +1,7 @@
 soywiz:
   nick: soywiz
   twitter: wizillo
-  web: http://soywiz.com/
+  web: https://soywiz.com/
   avatar: soywiz.jpg
   message: Programando compulsivamente
   list: true
@@ -9,7 +9,7 @@ soywiz:
 pacochan:
   nick: PacoChan
   twitter: pacochan88
-  web: http://pacochan.tales-tra.com/
+  web: https://pacochan.tales-tra.com/
   avatar: pacochan.jpg
   message: Los Tales me ponen
   list: true
@@ -17,21 +17,21 @@ pacochan:
 mrheston:
   nick: mrheston
   twitter: mrheston
-  web: http://sidebe.net/
+  web: https://sidebe.net/
   avatar: mrheston.jpg
   message: Marca reg.
   list: true
 
 parsec:
   nick: Parsec
-  web: http://www.flickr.com/photos/mrparsec/
+  web: https://www.flickr.com/photos/mrparsec/
   avatar: parsec.jpg
   message: Observe everything, admire nothing
   list: true
 
 kaene:
   nick: Kaene
-  web: http://analizandolatraduccion.blogspot.com/
+  web: https://analizandolatraduccion.blogspot.com/
   avatar: kaene.jpg
   message: Indeed
   list: true
@@ -44,7 +44,7 @@ memnoch:
 
 tidus20:
   nick: Tidus_20
-  web: http://www.flickr.com/photos/tidus_20/
+  web: https://www.flickr.com/photos/tidus_20/
   twitter: tidus_20
   avatar: tidus20.jpg
   message: Para reírme de ti
@@ -66,7 +66,7 @@ nanami:
 
 klint:
   nick: Klint
-  web: http://klint-psk.romhackhispano.org/
+  web: https://klint-psk.romhackhispano.org/
   avatar: klint.jpg
   message: Holgazán compulsivo
   list: true
@@ -119,7 +119,7 @@ maz:
 zarradeth:
   nick: Zarradeth
   avatar: zarradeth.jpg
-  web: http://zarradeth.wordpress.com/
+  web: https://zarradeth.wordpress.com/
   message: "-"
   list: true
 

@@ -7,12 +7,12 @@ author:
   display_name: mrheston
   login: admin
   email: mrheston@tales-tra.com
-  url: http://blog.org.es
+  url: https://blog.org.es
 author_login: admin
 author_email: mrheston@tales-tra.com
-author_url: http://blog.org.es
+author_url: https://blog.org.es
 wordpress_id: 510
-wordpress_url: http://blog.tales-tra.com/?page_id=510
+wordpress_url: https://blog.tales-tra.com/?page_id=510
 date: '2010-03-11 00:55:35 +0100'
 date_gmt: '2010-03-10 23:55:35 +0100'
 categories:
@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: []
 header_image: /img/header/haruhi-yakusoku-900x200.jpg
-project_web: http://haruhi.tales-tra.com/
+project_web: https://haruhi.tales-tra.com/
 project_tag: Suzumiya Haruhi no Yakusoku
 team:
 - tom
@@ -50,5 +50,5 @@ para llevar adelante el proyecto. Nosotros ponemos el hackeo, y ellos traducen
 a inglés. Cuando la traducción esté completa, lanzaremos ambas versiones
 (española e inglesa) bajo sello **Tales Translations**.
 
-*Puedes comprobar el estado de la traducción inglesa en [haruhi.tales-tra.com](http://haruhi.tales-tra.com).*
+*Puedes comprobar el estado de la traducción inglesa en [haruhi.tales-tra.com](https://haruhi.tales-tra.com).*
 
