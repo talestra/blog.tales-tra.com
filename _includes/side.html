@@ -1,0 +1,66 @@
+<div class="container-fluid">
+    <div style="margin:8px 0 32px 0;">
+        <a href="https://feeds.feedburner.com/tales-tra" target="_blank"><img src="/img/suscribete-feed.gif"
+                                                                             style="width:100%;height:auto;"/></a>
+    </div>
+
+    <style type="text/css">
+        .rows_banners .col-md-12 img {
+            border-radius: 7px;
+            width: 100%;
+            height: auto;
+            padding: 3px 0;
+        }
+    </style>
+
+    <h1 class="page-heading"><span>Proyectos</span></h1>
+
+    <div class="row rows_banners">
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-the-abyss/"><img
+                src="/img/proyectos/toa-250x76.jpg" width="250" height="76"/></a></div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-eternia/"><img
+                src="/img/proyectos/toe-250x76.jpg" width="250" height="76"/></a>
+        </div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-destiny/"><img src="/img/proyectos/tod-250x76.jpg" width="250" height="76"
+        /></a>
+        </div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/tales-of-vesperia/"><img src="/img/proyectos/tov-250x76.jpg" width="250" height="76"
+        /></a>
+        </div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/banjo-kazooie/"><img
+                src="/img/proyectos/banjokazooie-250x76.jpg" width="250" height="76"/></a></div>
+        <div class="col-md-12 col-xs-6"><a href="/proyectos/suzumiya-haruhi-no-yakusoku/"><img
+                src="/img/proyectos/yakusoku-250x76.jpg" width="250" height="76"/></a></div>
+    </div>
+</div>
+
+    <!--
+    <h1 class="page-heading"><span>Últimos Comentarios</span></h1>
+    -->
+    <h1 class="page-heading"><span>Equipo</span></h1>
+    <div class="row">
+        {% for author in site.data.authors %}
+        {% assign user = author[1] %}
+        {% if user.list %}
+        <div class="col-md-12 col-xs-6">
+            <table style="margin:6px 0;">
+                <tr>
+                    <td style="padding-right:4px;">
+                        <img src="/img/avatares/{{ user.avatar }}" width="46" height="46" />
+                    </td>
+                    <td>
+                        {% if user.web %}
+                        <a href="{{ user.web }}" target="_blank" style="font-weight: bold;">{{ user.nick }}</a>
+                        {% else %}
+                        <span style="font-weight: bold;">{{ user.nick }}</span>
+                        {% endif %}
+                        {% if user.twitter %}/ <strong>@{{ user.twitter }}</strong>{% endif %}
+                        <br/>{{ user.message }}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Tales Translations
+email: no-reply@tales-tra.com
+description: Tales Translations
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.tales-tra.com"
+twitter_username: talestra
+github_username:  talestra
+facebook_username: talestra
+paginate: 10
+paginate_path: "/page/:num/"
+gems: [jekyll-paginate]
+
+# Build settings
+markdown: kramdown
+permalink: /:year/noticias/:title/

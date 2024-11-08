@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+{% if paginator.page == 1 %}
+<div style="position:relative;padding:0;margin:0 -15px 0 -15px;">
+    <a href="/proyectos/tales-of-vesperia">
+        <img src="/img/featured/tov001.jpg" style="width:100%;height:auto;"/>
+    </a>
+    <div style="width:100%;padding: 20px;position:absolute;bottom:0;background: url('/img/70-blanco.png');">
+        <div class="row" style="font: bold 11px Arial, sans-serif;">
+            <div class="col-md-6" style="text-transform:uppercase;padding:6px 16px;">
+                Traducción al español (desde noviembre de 2009)
+            </div>
+            <div class="col-md-3" class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar"
+                     aria-valuenow="100"
+                     aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                    100.00%
+                </div>
+            </div>
+            <div class="col-md-3" class="progress progress-bar-info">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 100%;">
+                    100.00%
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<div class="row actual-content home">
+    <div class="col-md-8 ">
+        <h1 class="page-heading"><span>Noticias</span></h1>
+
+        <div class="post-list">
+            {% for post in paginator.posts %}
+            <article class="post-item"
+                     style="border-bottom: 1px dotted #aaa;padding-bottom:32px;margin-bottom:32px;">
+                <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+
+                {% include published.html %}
+
+                {{ post.content }}
+
+                <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comentarios</a>
+            </article>
+            {% endfor %}
+        </div>
+
+        {% if paginator.next_page_path %}
+        <a href="{{ paginator.next_page_path }}">‹ Noticias más antiguas</a>
+        {% endif %}
+
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">Noticias más recientes ›</a>
+        {% endif %}
+    </div>
+    <div class="col-md-4">
+        {% include side.html %}
+    </div>
+</div>
+
+<script id="dsq-count-scr" src="//tales-translations-blog.disqus.com/count.js" async></script>

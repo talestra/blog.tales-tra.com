@@ -1,0 +1,65 @@
+body {
+    background: #f9f3ea;
+    cursor: default;
+    line-height: 1.2em;
+}
+
+span.adults {
+    color: #cc0000;
+    font-size: 0.9em;
+}
+
+footer.site-footer {
+    font: 11px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+}
+
+footer.site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 16px 0;
+}
+
+footer.site-footer li {
+    padding: 0;
+    margin: 0;
+}
+
+footer.site-footer li a {
+    color: black;
+}
+
+.actual-content {
+    background: white;
+    padding: 32px 24px;
+    border: 1px solid #eae3d9;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+    color: #333;
+}
+
+.actual-content h2 {
+    color: black;
+    font: bold 24px "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.2em;
+}
+.actual-content h2 a {
+    color: black;
+}
+
+.actual-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1.page-heading {
+    padding: 0;
+    margin: 8px 0;
+    font: 11px Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: url("/img/splitline.gif") 50% repeat-x;
+}
+
+h1.page-heading span {
+    background: white;
+    padding-right: 8px;
+}
